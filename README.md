@@ -1,6 +1,6 @@
 ### HydarTURN
 HydarTURN is a lightweight and embeddable Java implementation of the STUN/TURN protocol.<br>
-It runs a single instance bound to a single IP(for now).<br>
+It runs a single instance bound to the local wildcard IP. Allocations will use the same local address and incrementally generated ports.<br>
 Features:
 - STUN: binding requests/responses
 - TURN: Allocations
